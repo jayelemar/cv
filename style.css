@@ -1,25 +1,37 @@
-*{
-    background-color: #EEEEEE;
-}
-
 body{
     margin: 0;
+    border: 5px solid grey;
+    height: 100vh;
 }
 
-h1, h2, h3, h4, h5, h6{
-    margin: 0;
+header{
+    position: relative;
+    background-color: green;
+    height: 200px;
+    width: 100%;
 }
 
-.header{
-    background-color: #00ADB5;
-    margin: 0;
-}
-.navbar{
-    background-color: #00ADB5;
-    margin: 0;
+nav{
+    background-color: lightblue;
+    height: 100px;
+    width: 50%;
+    position: absolute;
+    right: 30px;
+    bottom: 50px;
 }
 
-span{
-    margin: 10px;
-    border: solid gray;
+main{
+    background-color: orange;
+    height: 500px;
+    width: 100%;
 }
+
+footer{
+    background-color: blue;
+    height: 300px;
+    width: 100%;
+}
+
+
+
+
