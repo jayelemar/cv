@@ -1,37 +1,21 @@
 body{
     margin: 0;
-    border: 5px solid grey;
-    height: 100vh;
 }
-
 header{
-    position: relative;
-    background-color: green;
-    height: 200px;
-    width: 100%;
-}
-
-nav{
-    background-color: lightblue;
+    background-color: #E5E0FF;
     height: 100px;
-    width: 50%;
-    position: absolute;
-    right: 30px;
-    bottom: 50px;
-}
-
-main{
-    background-color: orange;
-    height: 500px;
     width: 100%;
 }
-
-footer{
-    background-color: blue;
-    height: 300px;
+nav{
+    background-color: #7286D3;
+    position: fixed;
+    height: 30px;
     width: 100%;
+    top: 70px;
 }
 
-
+nav ul li {
+    list-style: none;
+}
 
 
