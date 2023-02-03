@@ -2,14 +2,15 @@ body{
     margin: 0;
 }
 header{
-    background-color: #E5E0FF;
-    height: 100px;
+    position: relative;
+    background-color:white;
+    height: 150px;
     width: 100%;
 }
 nav{
-    background-color: #7286D3;
-    position: fixed;
-    height: 30px;
+    background-color: #1C82AD;
+    position: absolute;
+    height: 50px;
     width: 100%;
     top: 70px;
 }
