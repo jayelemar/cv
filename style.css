@@ -2,21 +2,61 @@ body{
     margin: 0;
 }
 header{
-    position: relative;
-    background-color:white;
-    height: 4rem;
-    width: 100%;
+    display: block;
+    background-color: red;
+    top: 0;
+    height: 60px;
+}
+
+header h1{
+    display: inline-block;
+    width: 250px;
+    vertical-align: middle;
+    border-right: 5px solid grey;
+    padding-left: 20px;
+
 }
 nav{
-    background-color: #1C82AD;
-    position: absolute;
-    height: 50px;
-    width: 100%;
-    top: 70px;
+    position: relative;
+    display: inline-block;
+    background-color: red;
+    width: 69%;
+    vertical-align: middle;
 }
 
-nav ul li {
-    list-style: none;
+
+header nav ul{
+    margin: 0;
+    padding: 0;
+    float: right;
 }
 
+header nav ul li{
+    padding: 0;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+    width: 120px;
+    text-align: center;
+}
+
+main{
+    position: static;
+
+}
+
+/* li {
+    list-style-type: none;
+    display: inline-block;
+    width: 100px;
+    vertical-align: bottom;
+    text-align: center;
+    float: right;
+    border: 5px solid grey;
+    border-radius: 40%;
+    margin: 0 10px;
+}
+ul{
+    margin-right: 50px;
+} */
 
