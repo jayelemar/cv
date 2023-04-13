@@ -92,6 +92,7 @@ nav{
 }
 .navbar{
 	padding-top: 1px;
+	display: flex;
 }
 
 .logo {
@@ -109,11 +110,7 @@ nav{
 	border: 1px solid var(--light-blue);
 	border-radius: 5px;
 	color: var(--light-blue);
-
 }
-
-
-
 
 nav .nav-list{
 	display: inline-block;
@@ -125,14 +122,15 @@ ul li {
 
 }
 
-button{
+.resume{
 	background-color: var(--white);
+	height: 34px;
 	color: var(--red);
 	display: inline-block;
 	justify-content: center;
 	align-items: center;
 	font-size: 1.6rem;
-	padding: .7rem 1.5rem ;
+	padding: 0rem 1.5rem ;
 	border: 1px solid var(--red);
 	border-radius: 5px;
 }
@@ -259,8 +257,43 @@ section {
 	h2 {
 		font-size: 2rem;
 	}
+	.navbar {
+		display: flex;
+		flex-direction: row-reverse;	
+	}
 }
 
+/* RESPONSIVE MOBILE MENU */
+
+@media screen and (max-width: 400px) {
+	.nav-wrapper {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 50%;
+		height: 100%;
+		display: block;
+		background-color: rgba(0, 0, 0, 0.7);
+		transform: translateX(-100%);  /* going to 100% */
+		transition: all .5s;
+	}
+
+	.nav-list {
+		position: fixed;
+		display: block;
+		top: 0;
+		left: 0;
+		width: 50%;
+		height: 100%;
+		display: block;
+		background-color: rgba(169, 18, 18, 0.1);
+		transform: translateX(100%);  /* going to 0 */
+		transition: all .5s;
+	}
+
+	.resume {
+		display: block;
+	}
 
 
-
+}
